@@ -1,5 +1,3 @@
-
-
 var userChoice = prompt("Please enter your choice?");
 var computerChoice = Math.random();
 if (computerChoice < 0.34) {

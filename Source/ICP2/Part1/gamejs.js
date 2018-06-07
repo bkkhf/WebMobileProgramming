@@ -11,13 +11,13 @@ if (computerChoice < 0.34) {
 }
 
 document.write("<p>Computer:" + " " + computerChoice + "</p>");
-
+//userchoice and computerChoice
 function compare(choice1,choice2) {
-    if (choice1 == choice2) {
+    if (choice1 === choice2) {
         return "It's a tie game!";
     }
-    if (choice1 == "rock" || choice1 == "Rock" || choice1 == "ROCK") {
-        if (choice2 == "scissors") {
+    if (choice1 === "rock" || choice1 === "Rock" || choice1 === "ROCK") {
+        if (choice2 === "scissors") {
             // rock wins
             return "Rock wins!";
         } else {
@@ -25,8 +25,8 @@ function compare(choice1,choice2) {
             return "Rock lose! Paper Wins, Try again.";
         }
     }
-    if (choice1 == "paper" || choice1 == "Paper" || choice1 == "PAPER") {
-        if (choice2 == "rock") {
+    if (choice1 === "paper" || choice1 === "Paper" || choice1 === "PAPER") {
+        if (choice2 === "rock") {
             // paper wins
             return " Paper wins!";
         } else {
@@ -34,8 +34,8 @@ function compare(choice1,choice2) {
             return "Paper lose! Scissors Wins, Try again.";
         }
     }
-    if (choice1 == "scissors" || choice1 == "Scissors" || choice1 == "SCISSORS") {
-        if (choice2 == "rock") {
+    if (choice1 === "scissors" || choice1 === "Scissors" || choice1 === "SCISSORS") {
+        if (choice2 === "rock") {
             // rock wins
             return "Rock Wins! Scissors lose, Try again.";
         } else {

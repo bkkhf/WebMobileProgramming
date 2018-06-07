@@ -15,30 +15,30 @@ function compare(choice1,choice2) {
         return "It's a tie game!";
     }
     if (choice1 === "rock" || choice1 === "Rock" || choice1 === "ROCK") {
-        if (choice2 === "scissors") {
-            // rock wins
-            return "Rock wins!";
+        if (choice2 === "paper") {
+            // scissors wins
+            return "Computer wins!";
         } else {
-            // paper wins
-            return "Rock lose! Paper Wins, Try again.";
+            // rock wins
+            return "User Wins!";
         }
     }
     if (choice1 === "paper" || choice1 === "Paper" || choice1 === "PAPER") {
         if (choice2 === "rock") {
-            // paper wins
-            return " Paper wins!";
+            // rock wins
+            return " User wins!";
         } else {
-            // scissors wins
-            return "Paper lose! Scissors Wins, Try again.";
+            // paper wins
+            return "Computer Wins!";
         }
     }
     if (choice1 === "scissors" || choice1 === "Scissors" || choice1 === "SCISSORS") {
         if (choice2 === "rock") {
             // rock wins
-            return "Rock Wins! Scissors lose, Try again.";
+            return "Computer Wins!";
         } else {
             // scissors wins
-            return "Scissors win!";
+            return "User win!";
         }
     }
 	else

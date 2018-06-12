@@ -14,7 +14,7 @@ function getGithubInfo(user) {
 function showUser(user) {
     $('#Userprofile h2').html(user.login);
 	$('#Userprofile .id').text(user.id);
-    $('#Userprofile .avatar').text(user.avatar_url);
+    //$('#Userprofile .avatar').text(user.avatar_url);
     $('#Userprofile .information').text(user.html_url);
 	
 	document.getElementById("profileImg").src = user.avatar_url;
@@ -23,8 +23,13 @@ function showUser(user) {
 //3. No user account message display
 function noSuchUser(username) {
     
-    $("#profile h2").html(' No User');
-
+    $("#Userprofile h2").html(' No User');
+	$('#Userprofile .id').text("");
+    //$('#Userprofile .avatar').text(user.avatar_url);
+    //$('#Userprofile .information').text(user.html_url);
+	
+	document.getElementById("profileImg").src = "";
+	document.getElementById("profileURL").href = "";
 }
 
 

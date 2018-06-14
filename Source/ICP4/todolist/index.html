@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
+    <script src="todo.js"></script> <!-- Angular JS File -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<style>
+	.material-icons {vertical-align:-14%}
+	</style>
+</head>
+
+<body ng-app='todoApp' ng-controller='todoController' style="background-color:#00FFFF">
+	<div align="center" > <font size="20" color="red"> <i><u>Todo List Application..</u></i> </font> </div>
+	</br>
+	<div ng-app="todoApp" ng-controller="todoController" align="center">
+		<form ng-submit="add()">
+			<input id="textinput" ng-model="title" style="font-size:16pt;" placeholder="Enter ToDo item.."> &nbsp;&nbsp;&nbsp; <button class="button btn1">Add</button>
+		</form>
+		<ol>
+			<li ng-repeat="t in tasks track by $index" size="100px">
+				<input type="checkbox" name="chk" ng-model="chkbox" ng-checked="finish()"></input>
+				<font size="5">{{ t }}</font>
+				<button ng-click="delete()"><i class="material-icons">delete</i></button>
+			</li>
+		</ol>	
+		<div>
+			Total Items: {{totalCnt()}} , Pending Items: {{remainingCnt()}} , Finished Items: {{finish()}}
+		</div>
+	</div>
+
+</body>
+
+</html>

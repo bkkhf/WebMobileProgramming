@@ -1,0 +1,33 @@
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+}
+.btn1 {border-radius: 16px;}
+.btn2 {border-radius: 16px;}
+#textinput {
+    border-radius: 25px;
+    padding: 20px; 
+    width: 200px;
+    height: 10px;    
+}
+
+.done
+{
+  text-decoration: line-through;
+}
+
+.input-form
+{
+  padding-top: 3em;
+}
+
+.new {
+  padding-bottom: 1em;
+}

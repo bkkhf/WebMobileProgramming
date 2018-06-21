@@ -58,26 +58,26 @@
       <file leaf-file-name="cloud_mongodb_insert.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud_mongodb_insert.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="170">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cloud_mongodb_update.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud_mongodb_update.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="3" lean-forward="true" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cloud_mongodb_sort.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cloud_mongodb_sort.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud_mongodb_sort.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+            <state relative-caret-position="97">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cloud_mongodb_join.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud_mongodb_join.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -100,12 +100,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/cloud_mongodb_create_collection.js" />
-        <option value="$PROJECT_DIR$/cloud_mongodb_insert.js" />
         <option value="$PROJECT_DIR$/cloud_mongodb_find.js" />
         <option value="$PROJECT_DIR$/cloud_mongodb_delete.js" />
         <option value="$PROJECT_DIR$/cloud_mongodb_update.js" />
         <option value="$PROJECT_DIR$/node_modules/mongodb/lib/db.js" />
         <option value="$PROJECT_DIR$/cloud_mongodb_sort.js" />
+        <option value="$PROJECT_DIR$/cloud_mongodb_insert.js" />
+        <option value="$PROJECT_DIR$/cloud_mongodb_join.js" />
       </list>
     </option>
   </component>
@@ -127,7 +128,7 @@
       <path value="$PROJECT_DIR$/node_modules/mongodb/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="292" />
     <option name="y" value="24" />
     <option name="width" value="1400" />
@@ -175,26 +176,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.cloud_mongodb_sort.js">
-    <configuration name="cloud_mongodb_delete.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="cloud_mongodb_delete.js" working-dir="$PROJECT_DIR$" />
+  <component name="RunManager" selected="Node.js.cloud_mongodb_join.js">
     <configuration name="cloud_mongodb_find.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="cloud_mongodb_find.js" working-dir="$PROJECT_DIR$" />
     <configuration name="cloud_mongodb_insert.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="cloud_mongodb_insert.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="cloud_mongodb_join.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="cloud_mongodb_join.js" working-dir="$PROJECT_DIR$" />
     <configuration name="cloud_mongodb_sort.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="cloud_mongodb_sort.js" working-dir="$PROJECT_DIR$" />
     <configuration name="cloud_mongodb_update.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="cloud_mongodb_update.js" working-dir="$PROJECT_DIR$" />
     <list>
       <item itemvalue="Node.js.cloud_mongodb_insert.js" />
       <item itemvalue="Node.js.cloud_mongodb_find.js" />
-      <item itemvalue="Node.js.cloud_mongodb_delete.js" />
       <item itemvalue="Node.js.cloud_mongodb_update.js" />
       <item itemvalue="Node.js.cloud_mongodb_sort.js" />
+      <item itemvalue="Node.js.cloud_mongodb_join.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.cloud_mongodb_join.js" />
+        <item itemvalue="Node.js.cloud_mongodb_insert.js" />
         <item itemvalue="Node.js.cloud_mongodb_sort.js" />
         <item itemvalue="Node.js.cloud_mongodb_update.js" />
         <item itemvalue="Node.js.cloud_mongodb_find.js" />
-        <item itemvalue="Node.js.cloud_mongodb_delete.js" />
-        <item itemvalue="Node.js.cloud_mongodb_insert.js" />
       </list>
     </recent_temporary>
   </component>
@@ -210,23 +211,23 @@
       <updated>1529611317480</updated>
       <workItem from="1529611322887" duration="1295000" />
       <workItem from="1529612987056" duration="17000" />
-      <workItem from="1529613131790" duration="3216000" />
+      <workItem from="1529613131790" duration="5023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4528000" />
+    <option name="totallyTimeSpent" value="6335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.34114203" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34114203" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3243243" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33704293" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -338,31 +339,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_mongodb_update.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="3" lean-forward="true" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/db.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="248" column="33" selection-start-line="248" selection-start-column="33" selection-end-line="248" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_mongodb_insert.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_mongodb_find.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -373,10 +353,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud_mongodb_sort.js">
+    <entry file="file://$PROJECT_DIR$/cloud_mongodb_update.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <caret line="10" column="36" lean-forward="true" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_mongodb_sort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_mongodb_find.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_mongodb_insert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_mongodb_join.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
         </state>
       </provider>
     </entry>

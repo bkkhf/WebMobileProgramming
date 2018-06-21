@@ -1,0 +1,92 @@
+{
+  "name": "United States",
+  "parent":"US",
+  "children": [
+    {
+      "name": "University of Missouri System",
+      "parent": "US",
+      "children": [
+        {
+          "name": "University of Missouri",
+          "parent": "University of Missouri System"
+        },
+        {
+          "name": "University of Missouri - Kansas City",
+          "parent": "University of Missouri System"
+        },
+        {
+          "name": "Missouri University of Science and Technology",
+          "parent": "University of Missouri System"
+        },
+        {
+          "name": "University of Missouri–St. Louis",
+          "parent": "University of Missouri System"
+        }
+      ]
+    },
+    {
+      "name": "New York University (NYU)",
+      "parent": "US",
+      "children": [
+        {
+          "name": "Branch1",
+          "parent": "New York University (NYU)"
+        },
+        {
+          "name": "Branch2",
+          "parent": "New York University (NYU)"
+        },
+        {
+          "name": "Branch3",
+          "parent": "New York University (NYU)"
+        },
+        {
+          "name": "Branch4",
+          "parent": "New York University (NYU)"
+        }
+      ]
+    },
+    {
+      "name": "Harvard University",
+      "parent": "US",
+      "children": [
+        {
+          "name": "Branch1",
+          "parent": "Harvard University"
+        },
+        {
+          "name": "Branch2",
+          "parent": "Harvard University"
+        }
+      ]
+    },
+    {
+      "name": "California Institute of Technology (Caltech)",
+      "parent": "US",
+      "children": [
+        {
+          "name": "Branch1",
+          "parent": "California Institute of Technology (Caltech)"
+        },
+        {
+          "name": "Branch2",
+          "parent": "California Institute of Technology (Caltech)"
+        },
+        {
+          "name": "Branch3",
+          "parent": "California Institute of Technology (Caltech)"
+        }
+      ]
+    },
+    {
+      "name": "Massachusetts Institute of Technology (MIT)",
+      "parent": "US",
+      "children": [
+        {
+          "name": "Branch1",
+          "parent": "Massachusetts Institute of Technology (MIT)"
+        }
+      ]
+    }
+  ]
+}

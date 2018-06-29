@@ -1,0 +1,88 @@
+<!doctype html>
+<html ng-app="ngOughts">
+<head>
+<style>
+.strike {
+    text-decoration: line-through;
+}
+.bold {
+    font-weight: bold;
+}
+.red {
+    color: blue;
+}
+.has-error {
+    color: red;
+    background-color: yellow;
+}
+.orange {
+    color: orange;
+	 background-color: yellow;
+}
+
+table, th , td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
+table tr:nth-child(odd) {
+  background-color: #f1f1f1;
+  text-decoration: bold;
+  
+}
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+.main{
+padding-top:100px;
+padding-bottom:50px;
+border:3px solid red;
+min-height:500px;
+width:100%;
+background-color: gray;
+}
+
+.inner-content{
+padding-top:100px;
+padding-top:100px;
+padding-bottom:50px;
+border:3px solid blue;
+width:50%;
+height300px;
+margin:0 auto;
+align:center;
+background-color: white;
+}
+</style>
+    <title>Tut</title>
+    <link rel="stylesheet" href="tic.css"></link>
+</head>
+<body  ng-controller="BoardCtrl" >
+<div class="main" style="background-image: url(tic-tac-toe-pattern-background.jpg); height: 100%; width: 100%;"> 
+<div class="inner-content" align="center">
+<h3 align="top">Play Tic-Tac-Toe</h3>
+ <select id="selectsize" ng-modal="selectPlay"><option value="3">3x3</option>
+  <option value="4">4x4</option>
+  <option value="5">5x5</option>
+  <option value="6">6x6</option> 
+  <option value="6">7x7</option>
+  <option value="6">8x8</option>
+  <option value="6">9x9</option>
+  <option value="6">10x10</option>
+  </select>
+  <button name="NewGame" class="newGame" value="Start a New Game" onClick="fnNewGame()">Start a New Game</button>
+<h1 ng-show="board.won" ng-cloak>{{board.winning_marker}} won!!!!</h1>
+<table  ng-class="style1" style="width:50%" align="center">
+    <tr ng-repeat="row in board.grid">
+        <td ng-repeat="cell in row" ng-click="board.playCell(cell)" ng-class="{'winning': cell.winning}">
+            <span ng-bind="cell.marker"></span>
+        </td>
+    </tr>
+</table>
+<button ng-click="board.reset()">Reset</button>
+</div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
